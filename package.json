@@ -19,6 +19,7 @@
     "start2": "serve -s build",
     "start3": "react-scripts start",
     "start4": "npm i serve",
+    "start":"serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
