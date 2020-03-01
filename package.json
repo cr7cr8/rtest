@@ -8,16 +8,17 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "serve": "^11.3.0"
   },
   "engines": {
     "npm": "6.9.0",
     "node": "10.16.3"
   },
   "scripts": {
-    "start2":"serve -s build",
+    "start2": "serve -s build",
     "start3": "react-scripts start",
-    "start":"npm i serve",
+    "start": "npm i serve",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
